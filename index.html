@@ -904,193 +904,193 @@ button:disabled {
 
 <script>
 // =============================================
-// BANCO DE PERGUNTAS - LIÇÃO 10: PEDRO (VERSÃO MELHORADA)
+// BANCO DE PERGUNTAS - LIÇÃO 10: PEDRO (NOVAS PERGUNTAS)
 // =============================================
 
 const allQuestions = [
-  // PERGUNTAS FÁCEIS (5) - Respostas corretas distribuídas
+  // PERGUNTAS FÁCEIS (5) - Respostas distribuídas A(1), B(2), C(1), D(1)
   {
-    question: "Qual era a profissão original de Pedro antes de se tornar discípulo de Jesus?",
+    question: "Onde Pedro estava trabalhando quando Jesus o chamou para ser discípulo?",
     options: [
-      "Pescador",
-      "Carpinteiro", 
-      "Coletor de impostos",
-      "Fariseu"
-    ],
-    correct: 0,
-    explanation: "Pedro era pescador, assim como seu irmão André, trabalhando no mar da Galileia (Mateus 4:18).",
-    difficulty: "easy"
-  },
-  {
-    question: "Qual era o nome original de Pedro antes de Jesus mudá-lo?",
-    options: [
-      "João",
-      "Simão", 
-      "Tiago",
-      "Judas"
+      "Em uma carpintaria em Nazaré",
+      "Pescando no mar da Galileia", 
+      "Coletando impostos em Cafarnaum",
+      "Ensinando na sinagoga"
     ],
     correct: 1,
-    explanation: "Pedro se chamava originalmente Simão. Jesus o chamou de Pedro (que significa 'rocha') em Mateus 16:18.",
+    explanation: "Pedro estava pescando no mar da Galileia com seu irmão André quando Jesus os chamou (Mateus 4:18-20).",
     difficulty: "easy"
   },
   {
-    question: "Quantas vezes Pedro negou Jesus antes do galo cantar?",
+    question: "Qual foi o primeiro milagre de Pedro registrado no livro de Atos?",
     options: [
-      "Duas vezes",
-      "Três vezes", 
-      "Uma vez",
-      "Quatro vezes"
+      "A ressurreição de Tabita",
+      "A cura do coxo na porta do templo", 
+      "A conversão de Cornélio",
+      "A libertação da prisão"
     ],
     correct: 1,
-    explanation: "Pedro negou Jesus três vezes, conforme predito por Jesus e registrado em Mateus 26:69-75.",
+    explanation: "O primeiro milagre de Pedro registrado em Atos foi a cura de um homem coxo na porta do templo chamada Formosa (Atos 3:1-10).",
     difficulty: "easy"
   },
   {
-    question: "Qual milagre de Pedro é destacado em Atos 3, onde ele cura um homem coxo?",
+    question: "Quantas epístolas (cartas) Pedro escreveu que estão no Novo Testamento?",
     options: [
-      "No monte das Oliveiras",
-      "No cenáculo", 
-      "Na porta do templo chamada Formosa",
-      "No mar da Galileia"
+      "Uma",
+      "Duas", 
+      "Três",
+      "Quatro"
     ],
-    correct: 2,
-    explanation: "Pedro curou um homem coxo na porta do templo chamada Formosa, dizendo: 'Não tenho prata nem ouro, mas o que tenho, isso te dou' (Atos 3:6).",
+    correct: 1,
+    explanation: "Pedro escreveu duas epístolas que estão no Novo Testamento: 1 Pedro e 2 Pedro.",
     difficulty: "easy"
   },
   {
-    question: "Qual foi a resposta impulsiva de Pedro quando Jesus predisse sua morte?",
+    question: "O que Pedro fez quando viu Jesus caminhando sobre as águas?",
     options: [
-      "'Vamos contigo!'",
-      "'Tu és o Cristo!'", 
-      "'Para onde iremos?'",
-      "'Isso não te acontecerá, Senhor!'"
+      "Ficou com medo e se escondeu",
+      "Pediu para também caminhar sobre as águas", 
+      "Achou que era um fantasma",
+      "Começou a remar mais rápido"
     ],
-    correct: 3,
-    explanation: "Quando Jesus predisse sua morte, Pedro respondeu impulsivamente: 'Isso não te acontecerá, Senhor!' (Mateus 16:22).",
+    correct: 1,
+    explanation: "Pedro pediu para Jesus: 'Senhor, se és tu, manda-me ir ter contigo por sobre as águas' (Mateus 14:28).",
+    difficulty: "easy"
+  },
+  {
+    question: "Como Pedro morreu, segundo a tradição cristã?",
+    options: [
+      "De morte natural em Éfeso",
+      "Martirizado em Roma", 
+      "Apedrejado em Jerusalém",
+      "Afogado no mar Egeu"
+    ],
+    correct: 1,
+    explanation: "Segundo a tradição, Pedro foi martirizado em Roma, crucificado de cabeça para baixo por sua própria requisição.",
     difficulty: "easy"
   },
   
-  // PERGUNTAS MÉDIAS (5) - Respostas corretas distribuídas
+  // PERGUNTAS MÉDIAS (5) - Respostas distribuídas A(1), B(2), C(1), D(1)
   {
-    question: "Em que evento Pedro demonstrou sua fé ao caminhar sobre as águas?",
+    question: "Qual destas características NÃO descreve adequadamente o caráter inicial de Pedro?",
     options: [
-      "Durante a crucificação",
-      "No batismo no Jordão", 
-      "Durante uma tempestade no mar da Galileia",
-      "Na transfiguração"
+      "Impulsivo e apaixonado",
+      "Temente e vacilante", 
+      "Leal e comprometido",
+      "Espiritual e maduro"
+    ],
+    correct: 3,
+    explanation: "No início de seu discipulado, Pedro não era espiritual e maduro, mas impulsivo, vacilante em momentos de crise, porém leal e comprometido.",
+    difficulty: "medium"
+  },
+  {
+    question: "Qual foi a resposta de Pedro quando Jesus perguntou 'Quem dizem os homens que eu sou?'",
+    options: [
+      "'Alguns dizem que és Elias'",
+      "'Tu és o Cristo, o Filho do Deus vivo'", 
+      "'És um grande profeta'",
+      "'És o rei de Israel'"
+    ],
+    correct: 1,
+    explanation: "Pedro respondeu: 'Tu és o Cristo, o Filho do Deus vivo' (Mateus 16:16), demonstrando compreensão da identidade de Jesus.",
+    difficulty: "medium"
+  },
+  {
+    question: "Em qual evento Pedro sugeriu construir três tendas para Jesus, Moisés e Elias?",
+    options: [
+      "Na ressurreição de Lázaro",
+      "Na última ceia", 
+      "Na transfiguração",
+      "No sermão da montanha"
     ],
     correct: 2,
-    explanation: "Pedro caminhou sobre as águas durante uma tempestade no mar da Galileia, demonstrando fé ao sair do barco, mas também medo ao começar a afundar (Mateus 14:28-31).",
+    explanation: "Pedro sugeriu construir três tendas durante a transfiguração de Jesus, quando apareceram Moisés e Elias (Mateus 17:4).",
     difficulty: "medium"
   },
   {
-    question: "O que Pedro fez quando Jesus foi preso no Getsêmani?",
+    question: "Qual destes NÃO foi um dos três discípulos mais próximos de Jesus?",
     options: [
-      "Fugiu imediatamente",
-      "Cortou a orelha do servo do sumo sacerdote", 
-      "O escondeu dos soldados",
-      "Negociou com os captores"
+      "Pedro",
+      "Tiago", 
+      "André",
+      "João"
+    ],
+    correct: 2,
+    explanation: "André, irmão de Pedro, não estava entre os três discípulos mais próximos (Pedro, Tiago e João) que testemunharam eventos especiais como a transfiguração.",
+    difficulty: "medium"
+  },
+  {
+    question: "Qual foi a principal mensagem de Pedro em seu sermão no dia de Pentecostes?",
+    options: [
+      "A necessidade de guardar a Lei mosaica",
+      "O arrependimento e batismo em nome de Jesus", 
+      "A libertação política de Israel",
+      "A construção do terceiro templo"
     ],
     correct: 1,
-    explanation: "Quando Jesus foi preso, Pedro cortou a orelha de Malco, servo do sumo sacerdote, com uma espada (João 18:10).",
-    difficulty: "medium"
-  },
-  {
-    question: "Qual foi a mensagem central do primeiro sermão de Pedro no dia de Pentecostes?",
-    options: [
-      "A necessidade de guardar a Lei",
-      "Jesus como Messias crucificado e ressuscitado", 
-      "A vinda do reino terrestre",
-      "A condenação dos romanos"
-    ],
-    correct: 1,
-    explanation: "No dia de Pentecostes, Pedro pregou sobre Jesus como o Messias crucificado e ressuscitado, resultando na conversão de cerca de 3.000 pessoas (Atos 2:14-41).",
-    difficulty: "medium"
-  },
-  {
-    question: "Como Pedro respondeu quando Jesus perguntou: 'Vocês também querem ir embora?'",
-    options: [
-      "'Nós te seguiremos até a morte'",
-      "'Mostra-nos o Pai'", 
-      "'Eu nunca te negarei'",
-      "'Senhor, para quem iremos? Tu tens as palavras de vida eterna'"
-    ],
-    correct: 3,
-    explanation: "Quando muitos discípulos abandonaram Jesus, Pedro declarou: 'Senhor, para quem iremos? Tu tens as palavras de vida eterna' (João 6:68).",
-    difficulty: "medium"
-  },
-  {
-    question: "Qual foi a visão que Pedro teve em Jope que mudou sua compreensão sobre os gentios?",
-    options: [
-      "Um anjo com uma mensagem",
-      "Jesus ressuscitado", 
-      "O céu aberto",
-      "Um lençel com animais impuros"
-    ],
-    correct: 3,
-    explanation: "Pedro teve uma visão de um lençel com animais impuros e ouviu uma voz dizendo: 'O que Deus purificou não consideres comum' (Atos 10:9-16).",
+    explanation: "Pedro pregou sobre arrependimento e batismo em nome de Jesus para remissão dos pecados (Atos 2:38).",
     difficulty: "medium"
   },
   
-  // PERGUNTAS DIFÍCEIS (5) - Respostas corretas distribuídas
+  // PERGUNTAS DIFÍCEIS (5) - Respostas distribuídas A(1), B(2), C(1), D(1)
   {
-    question: "Qual princípio de transformação espiritual podemos aprender da vida de Pedro?",
+    question: "Qual destas transformações no caráter de Pedro é mais evidente após Pentecostes?",
     options: [
-      "Deus elimina completamente nossa personalidade",
-      "Somente pessoas perfeitas podem ser usadas por Deus", 
-      "O caráter não pode ser transformado",
-      "Deus transforma nossas características naturais quando submetidas ao Seu Espírito"
+      "Tornou-se mais cauteloso e hesitante",
+      "Desenvolveu uma liderança fundamentada no Espírito Santo", 
+      "Abandonou completamente sua personalidade impulsiva",
+      "Tornou-se um teólogo sistemático"
     ],
-    correct: 3,
-    explanation: "A vida de Pedro mostra que Deus não elimina nossa personalidade, mas transforma nossas características naturais quando são submetidas ao Espírito Santo.",
+    correct: 1,
+    explanation: "Após Pentecostes, Pedro desenvolveu uma liderança ousada mas fundamentada no Espírito Santo, mantendo seu zelo mas agora direcionado pelo Espírito.",
     difficulty: "hard"
   },
   {
-    question: "Como o incidente da negação e posterior restauração de Pedro ilustra a graça de Deus?",
+    question: "Como o episódio da visão do lençol em Jope impactou o ministério de Pedro?",
     options: [
-      "Mostra que Deus rejeita quem O nega",
-      "Mostra que Pedro perdeu seu apostolado", 
-      "Mostra que não há segunda chance",
-      "Mostra que o fracasso não é o fim quando há arrependimento genuíno"
+      "Confirmou seu chamado apenas aos judeus",
+      "Expandiu sua compreensão da inclusão dos gentios", 
+      "O levou a se isolar em Jerusalém",
+      "Fez com que rejeitasse a Lei mosaica completamente"
     ],
-    correct: 3,
-    explanation: "A restauração de Pedro após sua negação (João 21:15-19) demonstra que o fracasso não é o fim quando há arrependimento genuíno e que a graça de Deus alcança os que caem.",
+    correct: 1,
+    explanation: "A visão do lençol com animais impuros (Atos 10) expandiu a compreensão de Pedro sobre a inclusão dos gentios no plano salvífico de Deus.",
     difficulty: "hard"
   },
   {
-    question: "Qual lição sobre liderança podemos aprender da transformação de Pedro?",
+    question: "Qual lição sobre o processo de discipulado podemos aprender da vida de Pedro?",
     options: [
-      "Líderes nascem prontos e não precisam de transformação",
-      "Somente os intelectualmente preparados podem liderar", 
-      "O impulso é uma qualidade essencial para a liderança",
-      "A verdadeira liderança espiritual nasce da humildade e dependência de Deus"
+      "O discipulado é instantâneo e sem falhas",
+      "Deus usa nossos fracassos como parte do processo de formação", 
+      "Somente os espiritualmente maduros podem ser discípulos",
+      "O caráter não pode ser transformado após certa idade"
     ],
-    correct: 3,
-    explanation: "Pedro aprendeu através de falhas e restauração que a verdadeira liderança espiritual nasce da humildade e dependência de Deus, não de auto-confiança.",
+    correct: 1,
+    explanation: "A vida de Pedro mostra que Deus usa nossos fracassos e arrependimentos como parte do processo de formação discipular.",
     difficulty: "hard"
   },
   {
-    question: "Como a impulsividade de Pedro, que era uma fraqueza, foi transformada em força para a missão?",
+    question: "Qual era a relação entre Pedro e a igreja em Roma, segundo evidências históricas?",
     options: [
-      "Ele se tornou totalmente cauteloso e hesitante",
-      "Perdeu completamente sua personalidade", 
-      "A impulsividade não pode ser transformada",
-      "Sua ousadia natural foi redirecionada para proclamar o evangelho com coragem"
+      "Pedro nunca esteve em Roma",
+      "Pedro foi bispo de Roma por 25 anos", 
+      "Pedro visitou Roma brevemente mas não liderou lá",
+      "Não há consenso histórico sobre o papel de Pedro em Roma"
     ],
-    correct: 3,
-    explanation: "A mesma ousadia que levou Pedro a cortar a orelha de Malco e a falar sem pensar foi redirecionada pelo Espírito Santo para proclamar o evangelho com coragem diante de autoridades.",
+    correct: 1,
+    explanation: "Segundo a tradição histórica cristã, Pedro foi bispo de Roma por aproximadamente 25 anos antes de seu martírio.",
     difficulty: "hard"
   },
   {
-    question: "Qual aspecto do caráter de Pedro foi crucial para seu papel como 'rocha' na igreja primitiva?",
+    question: "Como a experiência de Pedro com Jesus após a ressurreição (João 21) revela o método de Jesus para restaurar líderes caídos?",
     options: [
-      "Sua perfeição desde o início",
-      "Sua independência e autossuficiência", 
-      "Sua erudição teológica",
-      "Sua capacidade de se arrepender e crescer através das falhas"
+      "Jesus o rejeitou publicamente",
+      "Jesus o restaurou através de perguntas que reconduziram ao amor e serviço", 
+      "Jesus exigiu que ele fizesse penitência por 40 dias",
+      "Jesus o substituiu imediatamente por outro líder"
     ],
-    correct: 3,
-    explanation: "A capacidade de Pedro de se arrepender, aprender com seus erros e crescer espiritualmente foi crucial para que se tornasse a 'rocha' sobre a qual Jesus edificaria Sua igreja.",
+    correct: 1,
+    explanation: "Jesus restaurou Pedro através de três perguntas sobre amor ('Tu me amas?'), conduzindo-o de volta ao serviço pastoral (João 21:15-17).",
     difficulty: "hard"
   }
 ];
